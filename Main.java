@@ -33,6 +33,14 @@ class Main {
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
 
+    
+
+    int integer = 3;
+    double count = 10.2, count2 = 10.5, count3 = 99.2;
+    boolean valalbkameshwaran = true;
+
+    System.out.println(count * count3);
+    
 
 
 
