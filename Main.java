@@ -36,11 +36,10 @@ class Main {
     
 
     int integer = 3;
-    double count = 10.2, count2 = 10.5, count3 = 99.2;
+    double count = 12, count2 = 10.5, count3 = 99;
     boolean valalbkameshwaran = true;
 
-    System.out.println(count * count3);
-    
+    System.out.println("12 times 10.5 = " + (count * count2)); 
 
 
 
