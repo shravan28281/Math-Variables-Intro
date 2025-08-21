@@ -50,16 +50,32 @@ class Main {
     //+ - * / %
 
     //Try doing some math operations with numbers. How can we check to see if the math worked?
+    int vivan = 6;
+    int vallab = 7;
+    int shravan = 30;
+    boolean aadisleep = false;
+
+    System.out.println(shravan/vallab);
+
+    System.out.println("Does Aadi sleep everyday? The answer is " + aadisleep);
+    System.out.println("The remainder of 7 divided by 6 is: " + vallab % vivan);
 
     //Create codes that will print the following:
 
     //Odd integers from 1 to 100, inclusive of both
 
+    for (int oddint = 1; oddint<=100; oddint+=2) {
+       System.out.println(oddint);
+    };
+
+    System.out.println("100");
 
 
     //All multiples of 3 from 1 to 100
 
-
+ for (int oddint2 = 1; oddint2<=100; oddint2+=3) {
+       System.out.println(oddint2);
+    };
 
 
     //Starting at 1000, print on the same line (with a - [hypthen] between each) all of the numbers that end in 0 going down to 0
